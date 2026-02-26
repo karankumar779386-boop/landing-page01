@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- navbbr -->
+    <nav class="navbar">
+            <h2>MyLogo</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+ 
+       <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>I am a Frontend Developer</p>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+   <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a BCA graduate and learning Web Development.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>My Services</h2>
+        <div class="card-container">
+            <div class="card">Web Design</div>
+            <div class="card">Frontend Development</div>
+            <div class="card">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button  onclick="show()" type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
